@@ -1,4 +1,6 @@
-Basicly every named folder here is new project.
+#My journey in Rust
+
+###Basicly every named folder here is new project.
 
 For start -> create folder -> cd there -> cargo new project_name -> add to gitignore things you don't want
 
