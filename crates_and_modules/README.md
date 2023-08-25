@@ -1,27 +1,20 @@
+
 # Excercise to learn how crates and modules work from https://practice.rs/crate-module/module.html
 
 #### So at start we are given file lib.rs. We want to move modules to different files and directories. Final goal is to have dir tree like this: 
 
-├── Cargo.toml
-
-├── src
-
-│   ├── back_of_house.rs
-
-│   ├── front_of_house
-
-│   │   ├── hosting.rs
-
-│   │   ├── mod.rs
-
-│   │   └── serving.rs
-
-│   ├── lib.rs
-
-│   └── main.rs
-
+Cargo.toml
+src/</br>
+__|- back_of_house.rs</br>
+__|- front_of_house</br>
+__|__|- hosting.rs</br>
+__|__|- mod.rs</br>
+__|__|- serving.rs</br>
+__|- lib.rs</br>
+__|- main.rs</br>
 
 ## To do this:
+
 1. make according files to tree
 2. move modules from lib to back_of_house.rs and leave addnotation to them in lib.rs (pub/priv mod back_of_house;)
 3. create directories and make files, than move according modules to this files.
