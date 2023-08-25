@@ -13,13 +13,13 @@
   - lib.rs
   - main.rs
 
-
-## To do this:
+## To do this
 
 1. make according files to tree
 2. move modules from lib to back_of_house.rs and leave addnotation to them in lib.rs (pub/priv mod back_of_house;)
 3. create directories and make files, than move according modules to this files.
 4. create mod.rs and place there modules in this dir (pub/priv mod module_name) - it makes front_of_house directory visable to main as module, so we can use it's modules.
 5. check in main if we can access modules.
+6. Check it with cargo run -- if it compiles we good
 
 ### It was fun excercise and helps to understand how crates and modules work in rust
