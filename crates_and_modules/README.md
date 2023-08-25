@@ -5,13 +5,13 @@
 
 Cargo.toml  
 src/  
-__|- back_of_house.rs  
-__|- front_of_house  
-__|__|- hosting.rs  
-__|__|- mod.rs  
-__|__|- serving.rs  
-__|- lib.rs  
-__|- main.rs  
+__ |- back_of_house.rs  
+__ |- front_of_house  
+__ | __ |- hosting.rs  
+__ | __ |- mod.rs  
+__ | __ |- serving.rs  
+__ |- lib.rs  
+__ |- main.rs  
 
 ## To do this:
 
