@@ -4,14 +4,14 @@
 #### So at start we are given file lib.rs. We want to move modules to different files and directories. Final goal is to have dir tree like this: 
 
 Cargo.toml
-src/</br>
-__|- back_of_house.rs</br>
-__|- front_of_house</br>
-__|__|- hosting.rs</br>
-__|__|- mod.rs</br>
-__|__|- serving.rs</br>
-__|- lib.rs</br>
-__|- main.rs</br>
+src/  
+__|- back_of_house.rs  
+__|- front_of_house  
+__|__|- hosting.rs  
+__|__|- mod.rs  
+__|__|- serving.rs  
+__|- lib.rs  
+__|- main.rs  
 
 ## To do this:
 
