@@ -2,16 +2,15 @@
 
 #### So at start we are given file lib.rs. We want to move modules to different files and directories. Final goal is to have dir tree like this: 
 
-├── Cargo.toml
-├── src
-│   ├── back_of_house.rs
-│   ├── front_of_house
-│   │   ├── hosting.rs
-│   │   ├── mod.rs
-│   │   └── serving.rs
-│   ├── lib.rs
-│   └── main.rs
-
+Cargo.toml
+src/
+  |- back_of_house.rs
+  |- front_of_house
+  |   |- hosting.rs
+  |   |- mod.rs
+  |   |_ serving.rs
+  |- lib.rs
+  |_ main.rs
 
 ## To do this:
 1. make according files to tree
