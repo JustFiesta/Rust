@@ -1,0 +1,1 @@
+### This hello world is about basic rust functionality witch is borrowing and moving ownership
