@@ -4,13 +4,13 @@
 
 Cargo.toml
 src/</br>
-  |- back_of_house.rs</br>
-  |- front_of_house</br>
-  |   |- hosting.rs</br>
-  |   |- mod.rs</br>
-  |   |_ serving.rs</br>
-  |- lib.rs</br>
-  |_ main.rs</br>
+__|- back_of_house.rs</br>
+__|- front_of_house</br>
+__|______|- hosting.rs</br>
+__|______|- mod.rs</br>
+__|______|- serving.rs</br>
+__|- lib.rs</br>
+__|- main.rs</br>
 
 ## To do this:
 1. make according files to tree
