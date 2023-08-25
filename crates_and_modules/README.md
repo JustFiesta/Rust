@@ -3,7 +3,7 @@
 
 #### So at start we are given file lib.rs. We want to move modules to different files and directories. Final goal is to have dir tree like this: 
 
-Cargo.toml
+Cargo.toml  
 src/  
 __|- back_of_house.rs  
 __|- front_of_house  
