@@ -1,5 +1,6 @@
 use std::io::stdin;
 
+// function in lib for future algorithms to implement it easily
 pub fn fill_array_with_usr_input(usr_input_array: &mut Vec<i32>){
 
     println!("Input some numbers to test sorting algorithm (type \"done\" to start sorting)");
