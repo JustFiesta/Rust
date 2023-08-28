@@ -1,2 +1,3 @@
 ### Simple quick sort implementation for future improvements
- Going to make tests in future for easy filling and checking on time efficency after updates.
+Test for checking if updates still sort and work as expected
+Timestamp saved in file after use to see how fast is it sorting
