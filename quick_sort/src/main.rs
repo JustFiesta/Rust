@@ -3,6 +3,9 @@ use quick_sort::fill_array_with_usr_input;
 use rand::Rng;
 use std::time::Instant;
 
+#[cfg(test)]
+mod test;
+
 fn main() {
     
     let mut usr_number_array: Vec<i32> = vec![];
