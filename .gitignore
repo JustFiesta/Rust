@@ -16,3 +16,4 @@ Cargo.lock
 /target
 /test_algorithms
 .vscode/settings.json
+scraper/*

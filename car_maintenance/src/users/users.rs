@@ -16,6 +16,12 @@ enum UserRole{
     Admin,
 }
 
+impl User{
+    fn login(&self) {
+        todo!()
+    }
+}
+
 impl Menage for User {
     fn add(&mut self) {
         todo!()
