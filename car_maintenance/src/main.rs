@@ -16,6 +16,7 @@ fn main() {
             Ok(choice) => match choice {
                 1 => {
                     println!("logging in...");
+                    //make logged_user
                     // TODO: log_in();
                     // println!("Hello {}, nice to have you back!", logged_user.login());
                 }
@@ -85,9 +86,7 @@ fn main() {
         //account menage panel
         println!("Choose option (1-9):");
         //TODO
-        // println!("1.  default vehicle");
-        // println!("2. Add new vehicle");
-        // println!("3. Edit existing vehicle");
+        println!("1. Log out");
         println!("9. Remove account");
 
         match get_user_input_int() {

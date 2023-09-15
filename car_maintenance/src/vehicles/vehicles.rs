@@ -24,6 +24,13 @@ enum IsDefault {
     No,
 }
 
+impl Vehicle {
+    fn change_def_vehicle(&mut self, vehicle: &Vehicle) {
+        todo!()
+    }
+
+}
+
 impl Menage for Vehicle {
     fn add(&mut self) {
         todo!()

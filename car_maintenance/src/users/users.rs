@@ -9,6 +9,7 @@ struct User{
     phone: u128,
     role: UserRole,
     default_vehicle: Vehicle,
+    salt: String,
 }
 
 enum UserRole{
@@ -17,7 +18,13 @@ enum UserRole{
 }
 
 impl User{
-    fn login(&self) {
+    fn log_in(&self) {
+        todo!()
+    }
+    fn log_out(&self) {
+        todo!()
+    }
+    fn sign_in(&self) {
         todo!()
     }
 }
