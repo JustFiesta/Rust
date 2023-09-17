@@ -33,7 +33,7 @@ fn main() {
 
                             //match users::log_in(&login_attempt, password_attempt) // we won't need password after this so we can consume it
                             // println!("Logging in...");                            
-                            println!("Hello {}, nice to have you back!", logged_user.login);
+                            // println!("Hello {}, nice to have you back!", logged_user.login);
                             state = MenuState::DefaultMenu;
                         }
                         "2" => {
