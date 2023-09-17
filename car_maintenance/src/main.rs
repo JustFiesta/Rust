@@ -28,15 +28,18 @@ fn main() {
                 match get_user_input_str() {
                     Ok(choice) => match choice.as_str() {
                         "1" => {
-                            println!("Logging in...");
-                            let logged_user: users::User = create_user_from_input();
+                            let login_attempt = get_user_input("Enter login: ");
+                            let password_attempt = get_user_input("Enter password: ");
+
+                            //match users::log_in(&login_attempt, password_attempt) // we won't need password after this so we can consume it
+                            // println!("Logging in...");                            
                             println!("Hello {}, nice to have you back!", logged_user.login);
                             state = MenuState::DefaultMenu;
                         }
                         "2" => {
-                            println!("We're glad to have you!");
+                            println!("We're thrilled to have you!");
+                            let logged_user: users::User = create_user_from_input();
                             // TODO: sign_in();
-                            // println!("Hello {}, nice to have with us!", logged_user.login);
                             state = MenuState::DefaultMenu;
                         }
                         "0" => {

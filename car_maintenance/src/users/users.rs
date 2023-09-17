@@ -1,11 +1,10 @@
-use std::io;
-
 use argon2rs::argon2i_simple;
 use hex::encode;
 use rand::Rng;
 
 use crate::menage::Menage;
 use crate::vehicles::vehicles::Vehicle;
+
 pub struct User{
     pub user_id: u32,
     pub name: String,
