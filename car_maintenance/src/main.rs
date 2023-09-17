@@ -28,8 +28,8 @@ fn main() {
                 match get_user_input_str() {
                     Ok(choice) => match choice.as_str() {
                         "1" => {
-                            let login_attempt = get_user_input("Enter login: ");
-                            let password_attempt = get_user_input("Enter password: ");
+                            let login_attempt = get_user_input("login");
+                            let password_attempt = get_user_input("password");
 
                             //match users::log_in(&login_attempt, password_attempt) // we won't need password after this so we can consume it
                             // println!("Logging in...");                            
