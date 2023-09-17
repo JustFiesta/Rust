@@ -8,3 +8,7 @@ edition = "2021"
 [dependencies]
 chrono = "0.4.30" #simple funcionality for dates
 argon2rs = "0.2.5" #very safe hashing algorithm crate
+hex = "0.4.3" #for converting hash table to String
+rand = "0.8.5" #generate random numbers
+diesel = "2.1.1" #sql connection
+rusqlite = "0.29.0" #sqlite database for rust
