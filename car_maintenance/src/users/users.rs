@@ -13,7 +13,6 @@ pub struct User{
     pub email: String,
     pub phone: String,
     pub role: UserRole,
-    pub default_vehicle: Option<Vehicle>,
     pub salt: String,
 }
 
@@ -47,7 +46,7 @@ impl User{
             .map(|_| rng.gen_range(33..127) as u8 as char)
             .collect();
         self.salt = salt.clone(); //puts random salt to user
-        let hash_result = argon2i_simple(password, &salt); // 
+        let hash_result = argon2i_simple(password, &salt); // hash table
         self.password_hash = encode(&hash_result); // converts hash table to string
     }
 

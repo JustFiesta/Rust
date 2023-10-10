@@ -3,7 +3,7 @@ use crate::menage::Menage;
 struct Maintenance {
     vehicle_id: u32,
     part: String,
-    replacement_data: chrono::NaiveDate,
+    replacement_date: chrono::NaiveDate,
     cost: u16,
     place: String,
     next_maintenance: chrono::NaiveDate,
