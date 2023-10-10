@@ -3,7 +3,6 @@ use crate::menage::Menage;
 // Structure to represent vehicle
 pub struct Vehicle{
     vehicle_id: u32,
-    default: IsDefault,
     make: String,
     model: String,
     year: u16,
@@ -19,11 +18,6 @@ enum FuelType {
     Hybrid,
     Electric,
 }
-enum IsDefault {
-    Yes,
-    No,
-}
-
 
 impl Menage for Vehicle {
     fn add(&mut self) {

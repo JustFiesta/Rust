@@ -124,7 +124,7 @@ fn main() {
                         "3" => todo!(),
                         "4" => todo!(),
                         "9" => todo!(),
-                        "q" => state = MenuState::DefaultMenu,
+                        "0" => state = MenuState::DefaultMenu,
                         _ => println!("Mismatched choice number! Try again"),
                     },
                     Err(err) => eprintln!("Error: {}", err),
@@ -176,7 +176,6 @@ pub fn create_user_from_input() -> User {
         email,
         phone,
         role: UserRole::User,
-        default_vehicle: None,
         salt: String::new(),
     };
     
