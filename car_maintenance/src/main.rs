@@ -8,7 +8,7 @@ enum MenuState {
     VehicleOptions,
     AccountOptions,
 }
-//hello words
+
 fn main() {
     // Initial state of the app - it will change depending on user choices
     let mut state = MenuState::MainMenu;
