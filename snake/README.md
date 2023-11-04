@@ -1,1 +1,0 @@
- Re-writed code from Tensor Programming github repository - tried to learn more but it's too much for begginer. Next snake will be my own
